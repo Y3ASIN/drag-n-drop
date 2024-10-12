@@ -17,7 +17,7 @@ This project is a simple drag-and-drop application built using TypeScript and We
 - Webpack: Bundles the TypeScript code and other assets, optimizing the application for development and production environments.
 
 ### Getting Started
-First, clone ther repository:  
+First, clone the repository:  
 ```bash
     git clone <repository-url>
     cd drag-n-drop
