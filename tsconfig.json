@@ -63,5 +63,6 @@
   },
   "exclude": [
     "node_modules" // would be the default
-  ]
+  ],
+  "include": ["src"]
 }

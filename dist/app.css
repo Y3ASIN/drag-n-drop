@@ -8,6 +8,8 @@ html {
 
 body {
   margin: 0;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 label,
@@ -28,6 +30,7 @@ textarea {
   width: 100%;
   max-width: 30rem;
   border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 input:focus,
@@ -38,11 +41,12 @@ textarea:focus {
 
 button {
   font: inherit;
-  background: #ff0062;
-  border: 1px solid #ff0062;
+  background: #55b4d2;
+  border: 1px solid #55b4d2;
   cursor: pointer;
   color: white;
   padding: 0.75rem 1rem;
+  border-radius: 10px;
 }
 
 button:focus {
@@ -51,29 +55,31 @@ button:focus {
 
 button:hover,
 button:active {
-  background: #a80041;
-  border-color: #a80041;
+  background: #39859d;
+  border-color: #55b4d2;
 }
 
 .projects {
   margin: 1rem;
-  border: 1px solid #ff0062;
+  border: 1px solid #bb8b31;
+  border-radius: 10px;
 }
 
 .projects header {
-  background: #ff0062;
+  background: #bb8b31;
   height: 3.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 9px;
 }
 
 #finished-projects {
-  border-color: #0044ff;
+  border-color: #55b4d2;
 }
 
 #finished-projects header {
-  background: #0044ff;
+  background: #55b4d2;
 }
 
 .projects h2 {
@@ -95,12 +101,12 @@ button:active {
 }
 
 .projects li h2 {
-  color: #ff0062;
+  color: #5c84db;
   margin: 0.5rem 0;
 }
 
 #finished-projects li h2 {
-  color: #0044ff;
+  color: #5c84db;
 }
 
 .projects li h3 {
@@ -123,6 +129,7 @@ button:active {
 #user-input {
   margin: 1rem;
   padding: 1rem;
-  border: 1px solid #ff0062;
+  border: 1px solid #51bbd8;
+  border-radius: 1%;
   background: #f7f7f7;
 }

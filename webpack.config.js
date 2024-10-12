@@ -4,7 +4,7 @@ module.exports = {
   mode: "development",
   entry: "./src/app.ts",
   output: {
-    filename: "bundle.js",
+    filename: "app.js",
     path: path.resolve(__dirname, "dist"),
     publicPath: "/dist/",
   },
@@ -20,5 +20,13 @@ module.exports = {
   },
   resolve: {
     extensions: [".ts", ".js"],
+  },
+  devServer: {
+    static: {
+      directory: path.join(__dirname, "dist"),
+    },
+    devMiddleware: {
+      writeToDisk: true,
+    },
   },
 };
